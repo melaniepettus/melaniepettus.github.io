@@ -1,0 +1,115 @@
+
+h1 {
+	text-align:center;
+	font-family: 'Audiowide', cursive;
+	text-transform: uppercase;
+	font-color:#fffccc;
+	font-size:2em;
+	margin-bottom:-.5em;
+	margin-top:.1em;
+}
+
+nav {
+	font-size: 1.3em;
+ 	float: right;
+ 	/*margin: 1.5em;
+*/ 	background-color: #ffffff;
+ 	width:100%;
+} 
+
+nav a {	
+	text-decoration: none;
+	color: black;
+	margin: 1.3em;
+	padding-left:30px;
+	display: inline-block;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight:700;
+}
+
+a:hover {
+font-color:#FFCC00;
+text-decoration:underline;
+/*font-size:125%;*/
+}
+
+section {
+  background: #fffccc;
+  overflow: auto;
+  clear:both;
+/*  margin:40px;*/
+}
+
+/*#hero {
+  float:left;
+  display:block;
+  width: 50%;
+  background-image src(https://www.kastatic.org/images/homepage/background-learner.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding:0;
+  margin:0 auto;
+  clear:both;
+
+}
+*/
+img{
+	width:50%;
+	float:left;
+	display:block;
+	padding:0;
+	margin: 0 auto;
+}
+#about {
+  float: right;
+  width:50%;
+display:inline;
+padding:0;
+margin:0 auto;
+}
+
+footer {
+	clear:both;
+	width:100%;
+	position:center;
+	border-top;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p {
+	text-align: center;
+}
+
+h2,h3 {
+	/*margin:10px;*/
+	padding-right:40px;
+	padding-left:20px;
+	font-family: 'PT Sans Narrow', sans-serif;
+	/*width:400px;*/
+	/*position:absolute;*/
+	/*position:center;*/
+}
+
+@media screen and (max-width: 400px) {
+
+img{
+	width:100%;
+	display:block;
+	padding:0;
+	margin: 0 auto;
+}
+#about {
+  width:100%;
+display:inline;
+padding:0;
+margin:0 auto;
+}
+
+nav {
+	font-size: 1.3em;
+ 	float: right;
+ 	/*margin: 1.5em;
+*/ 	background-color: #ffffff;
+ 	width:100%;
+ 	margin:0 auto;
+} 
+}
