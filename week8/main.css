@@ -1,0 +1,113 @@
+
+body 
+{
+background: url("http://coverhdwallpapers.com/wp-content/uploads/2015/02/light-black-background-tumblr-code.png");
+no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+h1 {
+	float:left;
+	width:50%;
+	display:inline-block;
+	color:white;
+	margin-top:30px;
+	text-align:center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight:700;
+}
+#main-nav { 
+ 	float:right;
+ 	width:50%;
+ 	display:inline-block;
+ 	/*margin-top:30px;*/
+ 	text-align:center;
+ } 
+
+li a{	
+	list-style:none;
+	text-decoration: none;
+	color: white;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight:700;
+	margin:.8em;
+	text-align:center;
+	display:inline-block;
+}
+
+#mobile-nav {
+	display:none;
+}
+
+a:hover {
+color:#FFCC00;
+text-decoration:underline;
+}
+
+footer {
+	clear:both;
+	width:100%;
+	position:fixed;
+	bottom:0;
+	border-top;
+	margin-bottom:1em;
+	text-align:center;
+	font-family: 'PT Sans Narrow', sans-serif;
+	color:white;
+}
+
+@media screen and (max-width: 700px) {
+
+#main-nav {
+	display:none;
+}
+
+footer {
+	display:none;
+}
+
+#mobile-nav {
+	display:block;
+	bottom:0;
+	position:fixed;
+	width:100%;
+	background-color:white;
+}
+
+  ul {
+      max-height: 0;
+      overflow: hidden;
+      margin: 0 3.5em 0 1em;
+    }
+
+li a {
+	visibility:hidden;
+	display:block;
+	list-style:none;
+}
+
+#menu-toggle {
+	display:none;
+}
+
+label {
+	display:block;
+	text-align:center;
+	cursor:pointer;
+
+}
+
+#menu-toggle:checked + #mobile-nav {
+    
+    ul {
+      max-height: 300px;
+    }
+
+    li {
+      visibility: visible;
+}
+
+}
