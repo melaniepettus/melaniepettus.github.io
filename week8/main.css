@@ -111,8 +111,12 @@ input {
 #mobile-nav li, #mobile-nav li a {
 	display:block;
 	list-style:none;
+	text-decoration:none;
 	color:white;
 	font-family: 'Montserrat', sans-serif;
+	font-size: 1.3em;
+	height: 1.6em;
+	line-height:1.6em;
 }
 
 #menu-toggle {
@@ -121,6 +125,11 @@ input {
 
 #menu {
 	display:none;
+}
+
+label {
+	font-family: 'Montserrat', sans-serif;
+	font-size:2em;
 }
 
 #menu-toggle:checked + #menu {
